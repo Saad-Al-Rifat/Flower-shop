@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+}
+header{
+    background: #fae1e6;
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    width: 100%;
+    
+}
+header img{
+    margin-bottom: 0;
+    height: 600px;
+    width: 435px;
+    align-self: flex-end;
+}
+header h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #272727;
+}
+header p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #272727;
+}
+/* shered  buttons*/
+.primary-btn{
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    height: 64px;
+    width: 179px;
+}
+/* ..................................... */
+header div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+    width: 708px;
+    height: 506px;
+    margin: 197px auto 147px auto;
+}
+.featured-flower h2{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #272727;
+    text-align: center;
+    margin-top: 170px;
+}
+.featured-flower p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #272727;
+    text-align: center;
+}
+
+.flower-box{
+    background: skyblue;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 394px;
+    height: 400px;
+    position: relative;
+}
+.ez{
+    margin: auto;
+    width: 310px;
+    height: 424px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.flower-images{
+    margin-top: 45px;
+    display: flex;
+    
+    justify-content: space-around;
+}
+/* image 1 */
+.image1{
+    background: #ffcde5;
+}
+.image1 .ez{
+    width: 210px;
+    height: 324px;
+}
+/* image 2 */
+.image2{
+    background: #cbdadb;
+}
+.image2 .ez{
+    width: 270px;
+    height: 270px;
+}
+/* image 3 */
+.image3{
+    background: #d9e0d2;
+}
+.image3 .ez{
+    width: 214px;
+    height: 371px;
+}
+.services{
+    width: 100%;
+    height: 320px;
+    margin-top: 170px;
+    margin-bottom: 100px;
+    background: rgb(243, 226, 226);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    column-gap: 80px;
+}
+.services p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #272727;
+}
+.services img{
+    height: 68px;
+    width: 68px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.offers h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #272727;
+    margin: 30px;
+}
+.offers p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #272727;
+    margin: 30px;
+    /* margin-left: -40px;  */
+}
+.offers div{
+    width: 594px;
+    height: 228px;
+    
+    
+}
+.offers{
+    display: flex;
+    justify-content: space-evenly;
+}
+.offers button{
+    margin-left: 25px; 
+}
+.products h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #272727;
+    text-align: center;
+    margin-top: 170px;
+}
+.products p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #272727;
+    text-align: center;
+}
+.products img{
+    width: 277px;
+    height: 309px;
+}
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.subscription .wtf2{
+    /* width: 100%; */
+    height: 290px;
+    background: url(images/latest-deals-bg.png);
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscription h2{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #272727;
+    margin: 10px;
+}
+.subscription p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #272727;
+    margin: 10px;
+}
+.subscription input{
+    padding: 23px;
+    border-radius: 8px;
+    border: none;
+    width: 500px;
+    margin-right: 20px;
+    background-color: #cbdadb;
+}
+.subscription input[placeholder]{
+    font-size: 16px;
+}
+.wtf{
+    margin-top: 20px;
+}
+.subscription{
+    margin-top: 100px;
+}
+footer{
+    background: #111010;
+    width: 100%;
+    height: 449; 
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-top: 200px;
+}
+footer h1{
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 24px;
+}
+footer span{
+    color: #E55473;
+}
+footer .description{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.rights{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 125px;
+    text-align: center;
+}
